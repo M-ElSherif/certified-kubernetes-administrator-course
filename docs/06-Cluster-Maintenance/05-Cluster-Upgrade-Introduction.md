@@ -67,6 +67,7 @@
   ```
   $ kubectl drain node-1
   ```
+- SSH into desire node
 - Upgrade kubeadm and kubelet packages
   ```
   $ apt-get upgrade -y kubeadm=1.12.0-00
@@ -74,7 +75,7 @@
   ```
 - Update the node configuration for the new kubelet version
   ```
-  $ kubeadm upgrade node config --kubelet-version v1.12.0
+  $ kubeadm upgrade node
   ```
 - Restart the kubelet service
   ```
