@@ -62,6 +62,9 @@ In this section, we will take a look at backup and restore methods
   $ service kube-apiserver stop
   ```
 - Run the etcdctl snapshot restore command
+  ```
+  etcdctl restore [options] <backup-file>
+  ```
 - Update the etcd service
 - Reload system configs
   ```
