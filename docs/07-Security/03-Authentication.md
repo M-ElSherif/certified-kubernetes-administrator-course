@@ -7,7 +7,7 @@ In this section, we will take a look at authentication in a kubernetes cluster
 
   ![auth1](../../images/auth1.PNG)
   
-#### Different users that may be accessing the cluster security of end users who access the applications deployed on the cluster is managed by the applications themselves internally.
+#### Users that may be accessing the cluster security, are separate from end users who access the applications deployed on the cluster since that is managed by the applications themselves internally.
 
  ![acc1](../../images/acc1.PNG)
  
