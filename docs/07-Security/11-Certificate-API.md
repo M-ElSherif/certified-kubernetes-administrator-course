@@ -35,6 +35,7 @@ In this section, we will take a look at how to manage certificates and certifica
     - server auth
     request:
       <certificate-goes-here>
+
   ```
   $ cat jane.csr |base64 
   $ kubectl create -f jane.yaml
