@@ -57,7 +57,7 @@ In this section, we will take a look at how to manage certificates and certifica
   ```
 - To decode it
   ```
-  $ echo "<certificate>" |base64 --decode
+  $ echo "<certificate>" | base64 --decode
   ```
   
   ![csr2](../../images/csr2.PNG)
